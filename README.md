@@ -3,14 +3,14 @@ Master the Concepts of Reinforcement Learning. Implement a complete RL solution 
 
 The Reinforcement Learning Specialization consists of 4 courses exploring the power of adaptive learning systems and artificial intelligence (AI).
 
-**Fundamentals of Reinforcement Learning**
+**[Course 1. Fundamentals of Reinforcement Learning](course1/README.md)**
 
 - Formalize problems as Markov Decision Processes 
 - Understand basic exploration methods and the exploration / exploitation tradeoff
 - Understand value functions, as a general-purpose tool for optimal decision-making
 - Know how to implement dynamic programming as an efficient solution approach to an industrial control problem
 
-**Sample-based Learning Methods**
+**Course 2. Sample-based Learning Methods**
 In this course, you will learn about several algorithms that can learn near optimal policies based on trial and error interaction with the environment - 
 learning from the agent’s own experience. Learning from actual experience is striking because it requires no prior knowledge of the environment’s dynamics, yet can still attain optimal behavior. 
 We will cover intuitively simple but powerful Monte Carlo methods, and temporal difference learning methods including Q-learning. 
@@ -28,7 +28,7 @@ By the end of this course you will be able to:
 - Implement a model-based approach to RL, called Dyna, which uses simulated experience 
 - Conduct an empirical study to see the improvements in sample efficiency when using Dyna
 
-**Prediction and Control with Function Approximation**
+**Course 3. Prediction and Control with Function Approximation**
 
 n this course, you will learn how to solve problems with large, high-dimensional, and potentially infinite state spaces. 
 You will see that estimating value functions can be cast as a supervised learning problem - function approximation - allowing you to build agents that carefully balance generalization and discrimination in order to maximize reward. 
@@ -52,7 +52,7 @@ By the end of this course, you will be able to:
 -Understand objectives for directly estimating policies (policy gradient objectives)
 -Implement a policy gradient method (called Actor-Critic) on a discrete state environment
 
-**A Complete Reinforcement Learning System (Capstone)**
+**Course 4. A Complete Reinforcement Learning System (Capstone)**
 
 In this final course, you will put together your knowledge from Courses 1, 2 and 3 to implement a complete RL solution to a problem. 
 This capstone will let you see how each component---problem formulation, algorithm selection, parameter selection and representation design - fits together into a complete solution, and how to make appropriate choices when deploying RL in the real world. 
